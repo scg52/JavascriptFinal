@@ -5,6 +5,7 @@
   <title>Monster Manual</title>
   <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Vollkorn" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/book.css" />
 </head>
 
 <body>
@@ -16,7 +17,7 @@
 
     <main>
     <div class="container">
-      <div class="containLeft">
+      <div class="containLeft page left">
         <div class="title cinzel">
           <h1>Relic Monster Manual</h1>
          </div><!--title-->
@@ -46,46 +47,32 @@
             <div class="link" id="scav"><p>2..........................Scav</p></div>
             <div class="link" id="fen"><p>3...........................Fen</p></div>
             <div class="link" id="corian"><p>4......................Corian</p></div>
-            <div class="link" id="vamp"><p>5.....................Vampire</p></div>
+            <div class="link" id="vampire"><p>5.....................Vampire</p></div>
             <div class="link" id="human"><p>6......................Human</p></div>
-            <div class="link" id="mech"><p>7..................Automech</p></div>
-            <div class="link" id="rann"><p>8.....................Rannak</p></div>
+            <div class="link" id="automech"><p>7..................Automech</p></div>
+            <div class="link" id="rannak"><p>8.....................Rannak</p></div>
             <div class="link" id="eld"><p>9...........................Eld</p></div>
-            <div class="link" id="rava"><p>10...................Ravager</p></div>
+            <div class="link" id="ravager"><p>10...................Ravager</p></div>
             <div class="link" id="lycan"><p>11.......................Lycan</p></div>
             <div class="link" id="brim"><p>12........................Brim</p></div>
           </div><!--index-->
       </div><!--containleft-->
 
-      <div class="containRight">
-        <div id="pageNumber">xxi</div>
+      <div class="containRight page right">
+        <div id="pageNumber" class="pageNumber">xxi</div>
         <div id="pic">
-          <img src="images/welcome.jpg" alt="Welcome">
-          <img src="images/nibiri.png" alt="Nibiri">
-          <img src="images/scav.png" alt="Scav">
-          <img src="images/fen.png" alt="Fen">
-          <img src="images/corian.png" alt="Corian">
-          <img src="images/vamp.png" alt="Vampire">
-          <img src="images/human.png" alt="Human">
-          <img src="images/automech.png" alt="Automech">
-          <img src="images/rannak.png" alt="Rannak">
-          <img src="images/eld.png" alt="Eld">
-          <img src="images/ravager.png" alt="Ravager">
-          <img src="images/lycan.png" alt="Lycan">
-          <img src="images/brim.png" alt="Brim">
+          <img class="pic" src="images/welcome.jpg" alt="Welcome">
         </div>
-
-        <div id="displayMsg">
+        <div id="displayMsg" class="displayMsg">
          <p> Hello hearty traveler! Are you having difficulty figuring out what kind of character to play in your next campaign? This book is an easy way to generate a character, just enter the character's name and birthday and the book will create! If you are already interested in playing a certain race or are interested in learning about others then use the index on the left.</p>
         </div>
       </div><!--containright-->
     </div><!--container-->
 
-    <audio id="page" src="sounds/Page_Turn-Mark_DiAngelo-1304638748.mp3"></audio>
-        
     </main>
   </div><!--everything-->
-  <script src="js/main.js"></script>
+  <!--script src="js/main.js"></script-->
+  <script src="js/book.js"></script>
 </body>
 
 </html>
